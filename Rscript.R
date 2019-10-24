@@ -9,7 +9,7 @@
   library(lattice)
 # ---
 
-# load data:
+# load data (dataset mtcars):
   data <- mtcars #dataset to play with
 # --
   
