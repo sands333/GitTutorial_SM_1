@@ -18,6 +18,7 @@
 
   xyplot(mpg ~ hp | factor(paste('cyl:',cyl)),
          data = mtcars,
-         col = "blue")
+         col = "blue", 
+         ylab = "miles per gallon")
 
 # --- end-of-script --- 
